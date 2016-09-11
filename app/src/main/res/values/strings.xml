@@ -1,0 +1,12 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Know SpaceX</string>
+
+    <string name="Question2Text">What is the name of the flagship space travel capsule from SpaceX?</string>
+    <string name="Question2hint">Enter the Name Here</string>
+
+    <string name="Question3Text">Which of the following are the rockets from SpaceX?</string>
+
+    <string name="Question4Text">How many Engines are there in the Falcon Heavy Rocket?</string>
+
+    <string name="currentScore">Current Score is: <xliff:g id="score" example="25">%d</xliff:g></string>
+</resources>
