@@ -1,6 +1,5 @@
 <resources
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
@@ -17,14 +16,16 @@
 
     <style name="questionText" parent="TextAppearance.AppCompat">
         <!-- Properties for the Question Text in the app for consistency -->
-        <item name="android:textSize">20sp</item>
+        <item name="android:textSize">18sp</item>
         <item name="android:color">@android:color/black</item>
     </style>
 
     <style name="CardViewMod" parent="CardView">
         <!-- Style for the Cards in the ScrollView -->
         <item name="android:layout_gravity">center</item>
-        <item name="android:layout_margin">15dp</item>
+        <item name="android:layout_marginLeft">15dp</item>
+        <item name="android:layout_marginRight">15dp</item>
+        <item name="android:layout_marginTop">15dp</item>
         <item name="cardElevation">10dp</item>
         <item name="android:padding">10dp</item>
         <item name="cardCornerRadius">5dp</item>

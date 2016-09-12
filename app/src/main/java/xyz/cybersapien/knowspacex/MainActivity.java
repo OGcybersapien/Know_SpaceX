@@ -24,10 +24,18 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    /**
+     * gets the current Score for the Snackbar
+     * @return String with Current Score
+     */
     private String getScore(){
         return getString(R.string.currentScore, score);
     }
 
+    /**
+     * Adds the points to the current score
+     * @param additionalPoints adds this to the score
+     */
     private void addToScore(int additionalPoints){
         score += additionalPoints;
     }
